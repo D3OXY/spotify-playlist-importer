@@ -1,0 +1,69 @@
+{
+  "testedAt": "2026-10-26T18:09:43.404Z",
+  "playlistUrl": "https://open.spotify.com/playlist/2gWVzPkdkpeGfMdcAkTBLv",
+  "expected": 275,
+  "extracted": 275,
+  "missing": 0,
+  "complete": true,
+  "initialCookies": 0,
+  "networkCount": 275,
+  "networkMismatches": 0,
+  "artistsAndDurationsPresent": 275,
+  "matchesOriginalExtraction": true,
+  "songsSha256": "f7c61c3f419401e67feb971b4d3750cbcbfe936ce6d70768988efa5c029c1beb",
+  "batches": [
+    {
+      "offset": 0,
+      "count": 25,
+      "total": 275
+    },
+    {
+      "offset": 25,
+      "count": 50,
+      "total": 275
+    },
+    {
+      "offset": 75,
+      "count": 50,
+      "total": 275
+    },
+    {
+      "offset": 125,
+      "count": 50,
+      "total": 275
+    },
+    {
+      "offset": 175,
+      "count": 50,
+      "total": 275
+    },
+    {
+      "offset": 225,
+      "count": 50,
+      "total": 275
+    }
+  ],
+  "concurrentRuns": [
+    {
+      "importedAt": "2026-10-26T18:12:21.081Z",
+      "extracted": 275,
+      "expected": 275,
+      "complete": true,
+      "initialCookies": 0,
+      "networkCount": 275
+    },
+    {
+      "importedAt": "2026-10-26T18:12:21.248Z",
+      "extracted": 275,
+      "expected": 275,
+      "complete": true,
+      "initialCookies": 0,
+      "networkCount": 275
+    }
+  ],
+  "automatedTests": {
+    "passed": 11,
+    "failed": 0,
+    "kind": "Chromium with intercepted HTML and network fixtures"
+  }
+}
